@@ -1,0 +1,54 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-dark">
+
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="right">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="right">
+        </button>
+      </ion-nav-buttons>
+
+    </ion-nav-bar>
+    
+    <ion-nav-view name="mainContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="right">
+    <ion-header-bar class="bar-dark">
+      <h1 class="title">Navigation</h1>
+    </ion-header-bar>
+    <ion-content>
+      <ion-list>
+        <ion-item menu-close href="#/app/home">
+          Home
+        </ion-item>
+        <ion-item menu-close href="#/app/aboutme">
+          About Me
+        </ion-item>
+        <ion-item menu-close href="#/app/tracks">
+          My Music
+        </ion-item>
+        <ion-item menu-close href="#/app/photos">
+          My Photos
+        </ion-item>
+        <ion-item menu-close href="#/app/contactme">
+          Contact Me
+        </ion-item>
+        <ion-item class="item-divider">
+         
+        </ion-item>
+        <ion-item menu-close ng-click="login()">
+          Login
+        </ion-item>
+        <ion-item menu-close ng-click="register()">
+          Register
+        </ion-item>
+        <ion-item menu-close ng-click="review()">
+          Write review
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

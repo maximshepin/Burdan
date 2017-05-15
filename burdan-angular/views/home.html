@@ -1,0 +1,59 @@
+
+    <div class="container" ng-controller="IndexController">
+        <img src="images/carousel.gif" width="100%">
+                   
+
+        <div class="row row-content">
+            <div class="col-xs-12 col-sm-3 col-sm-push-9">
+                <p style="padding:20px;"></p>
+                <h3 align=center>My Best Music Creations  </h3>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-sm-pull-3">
+                <div ng-if="!showTrack">
+                    <h3>{{message1}}</h3>
+                </div>
+                <div class="media" ng-if="showTrack">
+				
+                    <div class="media-left media-middle">
+                        <img class="media-object img-thumbnail"
+                        ng-src={{track.image}} width="200px">
+                    </div>
+                    <div class="media-body">
+                        <h2 class="media-heading">{{track.name}}</h2>
+                        <p>{{dish.description}}</p>
+                    </div>
+            </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="row row-content">
+            <div class="col-xs-12 col-sm-3 col-sm-push-9">
+                <p style="padding:20px;"></p>
+                <h3 align=center>Meet My Music Friends</h3>
+            </div>
+            
+
+
+            <div class="col-xs-12 col-sm-9 col-sm-pull-3">
+                <div ng-if="!showFaces">
+                    <h3>{{message2}}</h3>
+                </div>
+                <div class="media" ng-if="showFaces">
+				<div class="media-left media-middle">
+                        <img class="media-object img-thumbnail"
+                        ng-src={{face.image}} width="200px">
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">{{face.name}}  <small>{{face.designation}}</small></h3>
+                        <p>{{face.description}}</p>
+                    </div>
+            </div>
+
+
+
+        </div>
+        
+    </div>

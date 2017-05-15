@@ -1,0 +1,39 @@
+<ion-modal-view>
+  <ion-header-bar class="bar-dark">
+    <h1 class="title">Write a review</h1>
+    <div class="buttons">
+      <button class="button button-clear button-clear" ng-click="closeReview()">Close</button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <form id="reserveForm" name="reserveForm" ng-submit="doReserve()">
+      <div class="list">
+        <label class="item item-input item-select">
+          <span class="input-label">Number of Stars you give me</span>
+            <select ng-model="reservation.numGuests">
+                <option ng-repeat="n in [1,2,3,4,5]" value="{{n}}">{{n}}</option>
+            </select>
+        </label>
+        <li class="item item-toggle">
+        Do you like the app???
+        <label class="toggle toggle-dark">
+           <input type="checkbox"  ng-model="reservation" ng-checked="true">
+            <div class="track">
+                <div class="handle" >
+                </div>
+            </div>
+        </label>
+
+        </li>
+        <label class="item item-input">
+          <span class="input-label">Your Warm Comment</span>
+          <input type="text" ng-model="comment.comment">
+        </label>
+        
+        <label class="item">
+          <button class="button button-block button-dark" type="submit">Submit Review</button>
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</ion-modal-view>

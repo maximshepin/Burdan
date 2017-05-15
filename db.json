@@ -1,0 +1,352 @@
+{
+  "tracks": [
+    {
+      "id": 0,
+      "name": "Father",
+      "image": "images/Father.png",
+      "youtube": "https://www.youtube.com/embed/072XICsthhQ",
+      "description": "A unique track, I'd say my best of the best.",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Imagine all the people, living for today..!",
+          "author": "John Lemon",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Cool track, would recommend",
+          "author": "Paul McVites",
+          "date": "2014-09-05T17:57:28.556094Z"
+        },
+        {
+          "rating": 3,
+          "comment": "Eat it, just eat it!",
+          "author": "Michael Jaikishan",
+          "date": "2015-02-13T17:57:28.556094Z"
+        },
+        {
+          "rating": "3",
+          "comment": "fghfth",
+          "author": "th",
+          "date": "2017-05-15T02:55:28.038Z"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Strong [Original Mix]",
+      "image": "images/strong.png",
+      "youtube": "https://www.youtube.com/embed/DETkfvcMREI",
+      "description": "Strong is a lovely track",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Amazing song",
+          "author": "John Lemon",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to listen it!",
+          "author": "Paul McVites",
+          "date": "2014-09-05T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "In Silence [Original Mix]",
+      "image": "images/insilince.png",
+      "youtube": "https://www.youtube.com/embed/RCK6RaE_h7k",
+      "description": "A quintessential music experience,",
+      "comments": [
+        {
+          "rating": 4,
+          "comment": "Ultimate, Reaching for the stars!",
+          "author": "Ringo Starry",
+          "date": "2013-12-02T17:57:28.556094Z"
+        },
+        {
+          "rating": 2,
+          "comment": "It's your birthday, we're gonna party!",
+          "author": "25 Cent",
+          "date": "2011-12-02T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Back and Forth",
+      "image": "images/back&forth.png",
+      "youtube": "https://www.youtube.com/embed/aRJbaxXRxvU",
+      "description": "A delectable New York Style Mix.",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "COOL house track",
+          "author": "Paul",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 2,
+          "comment": "It's your day, we're gonna have a party!",
+          "author": "25 Cent",
+          "date": "2011-12-02T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Pilgrims",
+      "image": "images/pilgrims.png",
+      "youtube": "https://www.youtube.com/embed/HF0_AHd9lPo",
+      "description": "A quintessential music experience",
+      "comments": [
+        {
+          "rating": 4,
+          "comment": "Ultimate, Reaching for the stars!",
+          "author": "Ringo Starry",
+          "date": "2013-12-02T17:57:28.556094Z"
+        },
+        {
+          "rating": 2,
+          "comment": "It's your birthday, we're gonna party!",
+          "author": "25 Cent",
+          "date": "2011-12-02T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Shoulda Coulda Woulda",
+      "image": "images/shoulda.png",
+      "youtube": "https://www.youtube.com/embed/Kkcs9GnlBeU",
+      "description": "A quintessential music experience,",
+      "comments": [
+        {
+          "rating": 4,
+          "comment": "Ultimate, Reaching for the stars!",
+          "author": "Ringo Starry",
+          "date": "2013-12-02T17:57:28.556094Z"
+        },
+        {
+          "rating": 2,
+          "comment": "It's your birthday, we're gonna party!",
+          "author": "25 Cent",
+          "date": "2011-12-02T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Lost Civilization",
+      "image": "images/lostciv.png",
+      "youtube": "https://www.youtube.com/embed/wpvWOnwBmXI",
+      "description": "A quintessential music experience,",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Ultimate, Reaching for the stars!",
+          "author": "Ringo Starry",
+          "date": "2013-12-02T17:57:28.556094Z"
+        },
+        {
+          "rating": 5,
+          "comment": "It's your birthday, we're gonna party!",
+          "author": "25 Cent",
+          "date": "2011-12-02T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "When the Sun Goes Down",
+      "image": "images/whensun.png",
+      "youtube": "https://www.youtube.com/embed/zWX5PoQ4gbY",
+      "description": "A quintessential music experience",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Ultimate, Reaching for the stars!",
+          "author": "Ringo Starry",
+          "date": "2013-12-02T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "It's your  nice day, we're gonna have fun!",
+          "author": "25 Cent",
+          "date": "2011-12-02T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Newborn",
+      "image": "images/newborn.png",
+      "youtube": "https://www.youtube.com/embed/MCCoFMVZUcM",
+      "description": "This track I created when my first daughter was born",
+      "comments": [
+        {
+          "rating": 4,
+          "comment": "Amazing track",
+          "author": "Ringo Starry",
+          "date": "2013-12-02T17:57:28.556094Z"
+        },
+        {
+          "rating": 5,
+          "comment": "perfect music",
+          "author": "25 Cent",
+          "date": "2011-12-02T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "One on one with your other self",
+      "image": "images/oneonone.png",
+      "youtube": "https://www.youtube.com/embed/4mtdKnPPV7Q",
+      "description": "A quintessential music experience",
+      "comments": [
+        {
+          "rating": 4,
+          "comment": "Ultimate, Reaching for the stars!",
+          "author": "Ringo Starry",
+          "date": "2013-12-02T17:57:28.556094Z"
+        },
+        {
+          "rating": 3,
+          "comment": "It's your birthday, we're gonna party!",
+          "author": "25 Cent",
+          "date": "2011-12-02T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "So High [Radio Edit]",
+      "image": "images/sohigh.png",
+      "youtube": "https://www.youtube.com/embed/A7FNYIVg0Pw",
+      "description": "Please listen and vote for my another good track",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Ultimate, Reaching for the stars!",
+          "author": "Ringo Starry",
+          "date": "2013-12-02T17:57:28.556094Z"
+        },
+        {
+          "rating": 5,
+          "comment": "It's your birthday, we're gonna party!",
+          "author": "25 Cent",
+          "date": "2011-12-02T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Faces",
+      "image": "images/faces.png",
+      "youtube": "https://www.youtube.com/embed/tpmzRybHhpo",
+      "description": "A quintessential music",
+      "comments": [
+        {
+          "rating": 4,
+          "comment": "Ultimate, Reaching for the stars!",
+          "author": "Ringo Starry",
+          "date": "2013-12-02T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "It's your birthday, we're gonna party!",
+          "author": "25 Cent",
+          "date": "2011-12-02T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Endless Wave",
+      "image": "images/endless.png",
+      "youtube": "https://www.youtube.com/embed/Z72YZrkNz7Q",
+      "description": "A piece of music you will want to repeat",
+      "comments": [
+        {
+          "rating": 4,
+          "comment": "Ultimate, Reaching for the stars!",
+          "author": "Ringo Starry",
+          "date": "2013-12-02T17:57:28.556094Z"
+        },
+        {
+          "rating": 5,
+          "comment": "I like it very much",
+          "author": "25 Cent",
+          "date": "2011-12-02T17:57:28.556094Z"
+        }
+      ]
+    }
+  ],
+  "faces": [
+    {
+      "id": 0,
+      "name": "Chris Burn / Burdan",
+      "image": "images/burdan_web.jpg",
+      "designation": "Musician",
+      "link": "https://soundcloud.com/chris-burn",
+      "description": "Burdan, credits his hardworking Central Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His father was a live example and the idol for him."
+    },
+    {
+      "id": 1,
+      "name": "Club86",
+      "image": "images/club86.png",
+      "designation": "Recording studio",
+      "link": "http://www.club86recordings.com",
+      "description": "Club 86 Recordings is an independent record label whose aim is to release high end quality recordings.The team behind the label is young, however well established in the scene. With an experience of almost one decade in dj'ing and producing Club 86 Recordings is set to make a real impact to the scene. The music industry is going through hard times, but we are aware of these changes and the opportunities they offer at the same time. Club86 Recordings has gathered a pool of new ideas and we envision a bright future - against all odds. Come, join and share our musical REVOLUTION."
+    }
+  ],
+  "photos": [
+    {
+      "id": 0,
+      "name": "Family",
+      "image": "images/family.png",
+      "description": "My two lovely daughters - Maya and Milana."
+    },
+    {
+      "id": 1,
+      "name": "Guitarists",
+      "image": "images/guitars.png",
+      "description": "New Year afterParty with Guitar duet with Max"
+    },
+    {
+      "id": 2,
+      "name": "Kiss",
+      "image": "images/Kiss.png",
+      "description": "My wife kises me on Halloween Party"
+    },
+    {
+      "id": 3,
+      "name": "Drone",
+      "image": "images/drone.png",
+      "description": "Photo from drone on the Deep Creek lake"
+    },
+    {
+      "id": 4,
+      "name": "Turkmen",
+      "image": "images/turkmen.png",
+      "description": "My car tag clearly says who I am"
+    },
+    {
+      "id": 5,
+      "name": "Worker",
+      "image": "images/rabochiy.png",
+      "description": "On home improvement"
+    },
+    {
+      "id": 6,
+      "name": "Smoke",
+      "image": "images/smoke.png",
+      "description": "On the trip to Mexico with family and friends."
+    }
+  ],
+  "feedbacks": []
+}

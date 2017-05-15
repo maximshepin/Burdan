@@ -1,0 +1,41 @@
+
+
+    <div class="container">
+    <div class="col-xs-12">
+               <ul class="breadcrumb">
+                   <li><a href="#">Home</a></li>
+                   <li class="active">My Music</li>
+               </ul>
+               </div>
+        <div class="row row-content" ng-controller="MusicController">
+            
+            
+            <div class="col-xs-12" ng-if="!showMusic">
+                <h3>{{message}}</h3>
+            </div>
+            <div class="col-xs-12" ng-if="showMusic">
+                
+            <div class="tab-content">
+               <ul class="media-list tab-pane fade in active">
+               
+                <li class="media" ng-repeat="track in tracks">
+                    <div class="media-left media-middle">
+                        <a ui-sref="app.trackdetails({id: track.id})">
+                        <img class="media-object img-thumbnail"
+                        ng-src={{track.image}} width="200px">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h2 class="media-heading">{{track.name}}</h2>
+                         
+                        <p>{{track.description}} </p>
+
+
+                    </div>
+                </li>
+            </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+

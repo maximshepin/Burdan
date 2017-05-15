@@ -1,0 +1,14 @@
+ <ion-view view-title="My Photos">  
+  <ion-content>
+    <ion-list >
+		<div class="card" ng-repeat="photo in photos">
+          <div class="item item-body item-text-wrap">
+              <img class="full-image" ng-src="{{baseURL+photo.image}}">
+              <h2>{{photo.name}}</h2>
+               <p>{{photo.description}}</p>
+
+          </div>
+      </div>
+
+    </ion-list>
+  </ion-content>

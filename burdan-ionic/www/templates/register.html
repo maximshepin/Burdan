@@ -1,0 +1,44 @@
+<ion-modal-view>
+  <ion-header-bar class="bar-dark">
+    <h1 class="title">Register</h1>
+    <div class="buttons">
+      <button class="button button-clear button-clear" ng-click="closeRegister()">Close</button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <form ng-submit="doRegister()">
+      <div class="list">
+       <label class="item item-input">
+       <span class="input-label">Your Picture</span>
+       </label>
+       <label class="item item-input">
+       <img class="padding" ng-src="{{registration.imgSrc}}">
+       </label>
+       
+       <button class="button button-full button-dark" type="button" ng-click="selectPicture()">
+            Select from gallery
+        </button>
+        
+        <label class="item item-input">
+          <span class="input-label">First Name</span>
+          <input type="text" ng-model="registration.firstname">
+        </label>
+         <label class="item item-input">
+          <span class="input-label">Last Name</span>
+          <input type="text" ng-model="registration.lastname">
+        </label>
+         <label class="item item-input">
+          <span class="input-label">Username</span>
+          <input type="text" ng-model="registration.username">
+        </label>
+       <label class="item item-input">
+          <span class="input-label">Email</span>
+          <input type="email" ng-model="registration.email">
+        </label>
+        <label class="item">
+          <button class="button button-block button-dark" type="submit">Register</button>
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</ion-modal-view>

@@ -1,0 +1,72 @@
+
+    <div class="container" ng-controller="AboutController">
+        <div class="row">
+            <div class="col-xs-12">
+               <ul class="breadcrumb">
+                   <li><a href="index.html">Home</a></li>
+                   <li class="active">About Me</li>
+               </ul>
+            </div>
+            <div class="col-xs-12">
+               <h3>About Me</h3>
+               <hr>
+            </div>
+        </div>
+        
+        <div class="row row-content">
+            <div class="col-xs-12 col-sm-8">
+                <h2>My Story</h2>
+                <img src=images/burdan.png width="100%">
+                <h3>Burdan a.k.a. Kerem Ovezberde a.k.a Chris Burn</h3>
+
+<p>Burdan was born in city of Ashkhabad, Turkmenistan, one of the Asian countries of CIS, which was once a part of USSR. Burdan was always been involved in music, and in 1995 he formed the band ìLeague of Nationsî, which almost immediately became a local favorite. Burdan remained with the band until 1998, but after a dramatic life occurrence had to quickly leave his home and move to Europe.
+
+He had no idea that his life would change forever. His first stop way Czech Republic, Prague.
+
+During the two years he had spent there, Burdan got introduced to and consumed by electronic dance music. The years of 1998 to 2000 became the peak of and the torque of Burdan's life. The wide spectrum of music styles and genres, global Czech raves, and other inspirations around the city acted as a muse for his own compositions.
+
+In 2002 Burdan's fate landed him in Moscow, Russia, where during the next 5 years he studies Russian electronic music culture, while earning his living by DJing at local nightclubs. Today, Burdan (Kerem Ovezberde) lives in Washington DC, where he spends every possible second away from his job, working on new mixes and productions.</p>
+                <div class="well">
+                    <blockquote>
+                        <p>I take inspiration from the World's best music, and create a unique fusion experience. My creations will tickle your hearing sense!</p>
+                        <footer>Chris Burn,  
+                        <cite title="Source Title">From my heart</cite></footer>
+                    </blockquote>                
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div ng-if="!showFace">
+            <h3>{{message}}</h3>
+        </div>
+                
+        <div class="row row-content" ng-if="showFace">
+            <div class="col-xs-12 col-sm-9">
+                <h2>My music friends and Comrades</h2>
+               <ul class="media-list">
+					<li class="media" ng-repeat="face in faces">
+                    <div class="media-left media-middle">
+                        <img class="media-object img-thumbnail"
+                        ng-src={{face.image}} width="200px">
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">{{face.name}}  <small>{{face.designation}}</small></h3>
+                        <p>{{face.description}}</p>
+                        <a href={{face.link}}>{{face.link}}</a>
+                    </div>
+                    </li>
+               </ul>
+
+            </div>
+             <div class="col-xs-12 col-sm-3">
+                <p style="padding:20px;"></p>
+            </div>
+       </div>
+        
+             <div class="col-xs-12 col-sm-3">
+                <p style="padding:20px;"></p>
+            </div>
+       </div> 
+    </div>
